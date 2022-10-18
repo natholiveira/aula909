@@ -48,7 +48,7 @@ public class Conta {
     }
 
     public void setSaldo(Double saldo) {
-        if (saldo > 0) {
+        if (saldo >= 0) {
             this.saldo = saldo;
         } else {
             System.out.println("O saldo não pode ser negativo!");
