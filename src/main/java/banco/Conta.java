@@ -1,3 +1,5 @@
+package banco;
+
 public class Conta {
     private String titular;
     private String numeroConta;
@@ -57,7 +59,7 @@ public class Conta {
 
     @Override
     public String toString() {
-        return "Conta[" +
+        return "banco.Conta[" +
                 "titular:'" + titular + '\'' +
                 ", numeroConta:'" + numeroConta + '\'' +
                 ", cpf:'" + cpf + '\'' +

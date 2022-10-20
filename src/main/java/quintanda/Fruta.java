@@ -1,3 +1,5 @@
+package quintanda;
+
 public class Fruta {
     public String nome;
     public Cor cor;
@@ -6,7 +8,7 @@ public class Fruta {
     public void imprimir() {
         System.out.println(
             "Nome: "+nome+
-            "\n Cor: "+cor+
+            "\n quintanda.Cor: "+cor+
             "\n Quantidade: "+quantidade
         );
     }

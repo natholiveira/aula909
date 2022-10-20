@@ -1,3 +1,5 @@
+import carro.Carro;
+
 import java.time.LocalDate;
 
 public class Funcionario {

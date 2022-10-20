@@ -1,3 +1,5 @@
+package carro;
+
 public class Carro {
     private int numeroPortas;
     private String cor;
@@ -50,7 +52,7 @@ public class Carro {
 
     @Override
     public String toString() {
-        return "Carro[" +
+        return "carro.Carro[" +
                 " numeroPortas=" + numeroPortas +
                 ", cor='" + cor + '\'' +
                 ", placa='" + placa + '\'' +
