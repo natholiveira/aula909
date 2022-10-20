@@ -64,24 +64,13 @@ public class Aula1 {
 
         String marca = "";
 
-        Carro fusca = new Carro();
-        fusca.cor = "preto";
-        fusca.marca = marca;
-        fusca.numeroPortas = 2;
-        fusca.placa = "XPTO";
 
-        Carro kombi = new Carro();
-        kombi.cor = "branca";
-        kombi.marca = marca;
-        kombi.numeroPortas = 4;
-        kombi.placa = "ABCD";
 
 
 
         System.out.println("Pagamento do gerente é: "+pagamento);
         System.out.println("Pagamento do estágiario "+estagiario.nome+" é: "+pagamentoEstagiario);
 
-        System.out.println(kombi);
     }
 
     private static void darOi() {

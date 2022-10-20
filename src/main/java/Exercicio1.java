@@ -43,6 +43,8 @@ public class Exercicio1 {
         couve.quantidade = 15;
         couve.cor = Cor.VERDE;
 
+        System.out.println(couve);
+
         couve.imprimir();
 
         // Criar mais um objeto que faça sentido pra aplicação

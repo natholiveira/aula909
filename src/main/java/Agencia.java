@@ -12,7 +12,7 @@ public class Agencia {
 
         pagar(55.0, contaMaria);
 
-        contaMaria.getTitular();
+        System.out.println(contaMaria.getTitular());
 
         System.out.println(contaMaria);
         System.out.println(contaJose);

@@ -1,8 +1,8 @@
 public class Carro {
-    public int numeroPortas;
-    public String cor;
-    public String placa;
-    public String marca;
+    private int numeroPortas;
+    private String cor;
+    private String placa;
+    private String marca;
 
     public static int quantidadeRodas = 4;
 
@@ -14,6 +14,38 @@ public class Carro {
     }
 
     public Carro() {
+    }
+
+    public int getNumeroPortas() {
+        return numeroPortas;
+    }
+
+    public void setNumeroPortas(int numeroPortas) {
+        this.numeroPortas = numeroPortas;
+    }
+
+    public String getCor() {
+        return cor;
+    }
+
+    public void setCor(String cor) {
+        this.cor = cor;
+    }
+
+    public String getMarca() {
+        return marca;
+    }
+
+    public void setMarca(String marca) {
+        this.marca = marca;
+    }
+
+    public String getPlaca() {
+        return placa;
+    }
+
+    public void setPlaca(String placa) {
+        this.placa = placa;
     }
 
     @Override
