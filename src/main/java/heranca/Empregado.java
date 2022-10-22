@@ -44,4 +44,13 @@ public class Empregado {
     public void baterPonto() {
         System.out.println("O "+getNome()+"bateu o ponto!");
     }
+
+    @Override
+    public String toString() {
+        return "Empregado{" +
+                "nome='" + nome + '\'' +
+                ", matricula=" + matricula +
+                ", salario=" + salario +
+                '}';
+    }
 }

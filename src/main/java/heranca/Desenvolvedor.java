@@ -12,6 +12,22 @@ public class Desenvolvedor extends Empregado {
         this.faculdade = faculdade;
     }
 
+    public int getQuantidadeCafe() {
+        return quantidadeCafe;
+    }
+
+    public void setQuantidadeCafe(int quantidadeCafe) {
+        this.quantidadeCafe = quantidadeCafe;
+    }
+
+    public String getFaculdade() {
+        return faculdade;
+    }
+
+    public void setFaculdade(String faculdade) {
+        this.faculdade = faculdade;
+    }
+
     public void programar() {
 
     }

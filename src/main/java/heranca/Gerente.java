@@ -35,7 +35,7 @@ public class Gerente extends Empregado {
 
     @Override
     public String toString() {
-        return "heranca.Gerente{" +
+        return "Gerente{" +
                 "quantidadeEmpregagos=" + quantidadeEmpregagos +
                 ", subordinados=" + Arrays.toString(subordinados) +
                 '}';
