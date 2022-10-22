@@ -1,7 +1,7 @@
 public class Exercicio4 {
 
     /*
-    * Cria classe animal
+    * Cria classe Pai animal
 
     * Atributos
     - nome : String
@@ -11,6 +11,8 @@ public class Exercicio4 {
 
 *   * Métodos
 *   - Comer
+*   - construtor
+    - get e set
 *
     * Criar classe Mamifero
 
