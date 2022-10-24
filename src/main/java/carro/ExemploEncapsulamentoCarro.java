@@ -3,7 +3,7 @@ package carro;
 public class ExemploEncapsulamentoCarro {
 
     public static void main(String[] args) {
-        Carro carro = new Carro(4, "azul", "AAAAEAA", "Nissan");
+        Carro carro = new Carro("azul", "AAAAEAA", "Nissan", 2);
 
         pintarCarro("azul", carro);
 

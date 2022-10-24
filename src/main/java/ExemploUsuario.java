@@ -7,8 +7,12 @@ public class ExemploUsuario {
         novoUsuario.setSenha(novaSenhaCriptografada);
     }
 
+    public void atualizaLogin(String novoLogin, Usuario usuario) {
+        usuario.setLogin("login default");
+    }
+
     public static Usuario criarUsuario() {
-        Usuario novoUsuario = new Usuario("anderson", "1234");
+        Usuario novoUsuario = new Usuario("anderson", "1234", "asdas");
         return novoUsuario;
     }
 

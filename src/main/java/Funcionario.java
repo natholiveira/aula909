@@ -23,8 +23,7 @@ public class Funcionario {
             Double bonus,
             String nome,
             String cpf,
-            LocalDate data,
-            Carro carro
+            LocalDate data
     ) {
         this.salario = salario;
         this.desconto = desconto;
@@ -32,7 +31,6 @@ public class Funcionario {
         this.nome = nome;
         this.cpf = cpf;
         this.data = data;
-        this.carro = carro;
     }
 
     public Funcionario(

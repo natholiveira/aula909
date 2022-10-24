@@ -1,21 +1,11 @@
 package carro;
 
-public class Carro {
+public class Carro extends Veiculo {
     private int numeroPortas;
-    private String cor;
-    private String placa;
-    private String marca;
 
-    public static int quantidadeRodas = 4;
-
-    public Carro(int numeroPortas, String cor, String placa, String marca) {
+    public Carro(String cor, String placa, String marca, int numeroPortas) {
+        super(cor, placa , marca, TipoVeiculo.CARRO);
         this.numeroPortas = numeroPortas;
-        this.cor = cor;
-        this.placa = placa;
-        this.marca = marca;
-    }
-
-    public Carro() {
     }
 
     public int getNumeroPortas() {
@@ -26,37 +16,15 @@ public class Carro {
         this.numeroPortas = numeroPortas;
     }
 
-    public String getCor() {
-        return cor;
-    }
-
-    public void setCor(String cor) {
-        this.cor = cor;
-    }
-
-    public String getMarca() {
-        return marca;
-    }
-
-    public void setMarca(String marca) {
-        this.marca = marca;
-    }
-
-    public String getPlaca() {
-        return placa;
-    }
-
-    public void setPlaca(String placa) {
-        this.placa = placa;
+    @Override
+    public void ligar() {
+        System.out.println("Ligando carro!");
     }
 
     @Override
     public String toString() {
-        return "carro.Carro[" +
+        return super.toString() + "carro.Carro[" +
                 " numeroPortas=" + numeroPortas +
-                ", cor='" + cor + '\'' +
-                ", placa='" + placa + '\'' +
-                ", marca='" + marca + '\'' +
                 ']';
     }
 }

@@ -2,7 +2,10 @@ public class Usuario {
     private String nome;
     private String senha;
 
-    public Usuario(String nome, String senha) {
+    private String login;
+
+    public Usuario(String login, String nome, String senha) {
+        this.login = login;
         this.nome = nome;
         this.senha = senha;
     }
@@ -21,5 +24,13 @@ public class Usuario {
 
     public void setSenha(String senha) {
         this.senha = senha;
+    }
+
+    public String getLogin() {
+        return login;
+    }
+
+    public void setLogin(String login) {
+        this.login = login;
     }
 }

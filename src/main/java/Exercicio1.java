@@ -40,6 +40,8 @@ public class Exercicio1 {
         alface.nome = "Alface";
         alface.quantidade = 3;
 
+
+
         alface.imprimir();
 
         Verdura couve = new Verdura();

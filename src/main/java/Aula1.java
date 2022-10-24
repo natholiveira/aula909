@@ -25,8 +25,6 @@ public class Aula1 {
         estagiario.desconto = 50.0;
         estagiario.nome = "josefino";
 
-        Carro carro = new Carro();
-
         Scanner ler = new Scanner(System.in);
         Double salarioCoordenador = ler.nextDouble();
 
@@ -38,8 +36,7 @@ public class Aula1 {
                 bonusCoordenador,
                 "Samuel",
                 "999.999.999-99",
-                LocalDate.now(),
-                carro
+                LocalDate.now()
         );
 
         Funcionario ceo = new Funcionario(80000.0, 2000.0, "999.999.999-99");
