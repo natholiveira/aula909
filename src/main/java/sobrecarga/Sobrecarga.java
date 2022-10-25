@@ -17,6 +17,10 @@ public class Sobrecarga {
         return valor1 +  valor2;
     }
 
+    private static double somarNumeros(double valor1, int valor2) {
+        return valor1 +  valor2;
+    }
+
     public static double somarNumeros(double valor1, double valor2, double valor3) {
         return valor1 + valor2 + valor3;
     }
